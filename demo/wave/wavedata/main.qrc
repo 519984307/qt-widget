@@ -1,0 +1,7 @@
+<RCC>
+    <qresource prefix="/">
+        <file>data/data1.txt</file>
+        <file>data/data2.txt</file>
+        <file>data/data3.txt</file>
+    </qresource>
+</RCC>

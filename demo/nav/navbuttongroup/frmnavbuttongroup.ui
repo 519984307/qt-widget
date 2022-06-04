@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+ <class>frmNavButtonGroup</class>
+ <widget class="QWidget" name="frmNavButtonGroup">
+  <property name="geometry">
+   <rect>
+    <x>0</x>
+    <y>0</y>
+    <width>800</width>
+    <height>600</height>
+   </rect>
+  </property>
+  <property name="windowTitle">
+   <string>Form</string>
+  </property>
+  <widget class="NavButtonGroup" name="buttonGroup4" native="true">
+   <property name="geometry">
+    <rect>
+     <x>160</x>
+     <y>110</y>
+     <width>131</width>
+     <height>181</height>
+    </rect>
+   </property>
+  </widget>
+  <widget class="NavButtonGroup" name="buttonGroup2" native="true">
+   <property name="geometry">
+    <rect>
+     <x>11</x>
+     <y>60</y>
+     <width>478</width>
+     <height>41</height>
+    </rect>
+   </property>
+  </widget>
+  <widget class="NavButtonGroup" name="buttonGroup3" native="true">
+   <property name="geometry">
+    <rect>
+     <x>10</x>
+     <y>110</y>
+     <width>131</width>
+     <height>181</height>
+    </rect>
+   </property>
+  </widget>
+  <widget class="NavButtonGroup" name="buttonGroup1" native="true">
+   <property name="geometry">
+    <rect>
+     <x>11</x>
+     <y>11</y>
+     <width>478</width>
+     <height>41</height>
+    </rect>
+   </property>
+  </widget>
+ </widget>
+ <customwidgets>
+  <customwidget>
+   <class>NavButtonGroup</class>
+   <extends>QWidget</extends>
+   <header>navbuttongroup.h</header>
+  </customwidget>
+ </customwidgets>
+ <resources/>
+ <connections/>
+</ui>

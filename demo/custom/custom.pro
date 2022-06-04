@@ -1,0 +1,14 @@
+TEMPLATE = subdirs
+SUBDIRS += customgraphics
+SUBDIRS += customrocker
+SUBDIRS += custompie
+SUBDIRS += customring
+SUBDIRS += customdart
+SUBDIRS += scantantan
+SUBDIRS += spiderchart
+SUBDIRS += shadowcalendar
+SUBDIRS += shadowclock
+SUBDIRS += shadowwidget
+SUBDIRS += tasktableview
+SUBDIRS += timeaxis
+SUBDIRS += timeline

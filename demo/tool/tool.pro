@@ -1,0 +1,9 @@
+TEMPLATE = subdirs
+SUBDIRS += codecount
+SUBDIRS += codetool
+SUBDIRS += codecopy
+SUBDIRS += codesrc
+SUBDIRS += codeclean
+SUBDIRS += pngtool
+SUBDIRS += iptool
+SUBDIRS += textwrite

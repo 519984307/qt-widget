@@ -1,0 +1,193 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+ <class>frmYControlAll</class>
+ <widget class="QWidget" name="frmYControlAll">
+  <property name="geometry">
+   <rect>
+    <x>0</x>
+    <y>0</y>
+    <width>800</width>
+    <height>600</height>
+   </rect>
+  </property>
+  <property name="windowTitle">
+   <string>Form</string>
+  </property>
+  <layout class="QVBoxLayout" name="verticalLayout">
+   <item>
+    <widget class="QTabWidget" name="tabWidget">
+     <property name="currentIndex">
+      <number>0</number>
+     </property>
+     <widget class="QWidget" name="tab">
+      <attribute name="title">
+       <string> 选项卡1</string>
+      </attribute>
+      <widget class="YComboBox" name="comboBox">
+       <property name="geometry">
+        <rect>
+         <x>10</x>
+         <y>10</y>
+         <width>291</width>
+         <height>41</height>
+        </rect>
+       </property>
+      </widget>
+      <widget class="YListWidget" name="listWidget">
+       <property name="geometry">
+        <rect>
+         <x>10</x>
+         <y>70</y>
+         <width>291</width>
+         <height>331</height>
+        </rect>
+       </property>
+      </widget>
+      <widget class="YTreeWidget" name="treeWidget">
+       <property name="geometry">
+        <rect>
+         <x>310</x>
+         <y>70</y>
+         <width>281</width>
+         <height>331</height>
+        </rect>
+       </property>
+       <column>
+        <property name="text">
+         <string notr="true">1</string>
+        </property>
+       </column>
+      </widget>
+     </widget>
+     <widget class="QWidget" name="tab_3">
+      <attribute name="title">
+       <string> 选项卡2</string>
+      </attribute>
+      <widget class="YDoubleSpinBox" name="doubleSpinBox">
+       <property name="geometry">
+        <rect>
+         <x>10</x>
+         <y>60</y>
+         <width>241</width>
+         <height>41</height>
+        </rect>
+       </property>
+      </widget>
+      <widget class="YSpinBox" name="spinBox">
+       <property name="geometry">
+        <rect>
+         <x>10</x>
+         <y>10</y>
+         <width>241</width>
+         <height>41</height>
+        </rect>
+       </property>
+      </widget>
+      <widget class="QScrollBar" name="verticalScrollBar">
+       <property name="geometry">
+        <rect>
+         <x>490</x>
+         <y>10</y>
+         <width>21</width>
+         <height>371</height>
+        </rect>
+       </property>
+       <property name="orientation">
+        <enum>Qt::Vertical</enum>
+       </property>
+      </widget>
+      <widget class="YScrollBarV" name="vscrollbarButton" native="true">
+       <property name="geometry">
+        <rect>
+         <x>530</x>
+         <y>10</y>
+         <width>31</width>
+         <height>371</height>
+        </rect>
+       </property>
+      </widget>
+      <widget class="QScrollBar" name="horizontalScrollBar">
+       <property name="geometry">
+        <rect>
+         <x>10</x>
+         <y>310</y>
+         <width>451</width>
+         <height>21</height>
+        </rect>
+       </property>
+       <property name="orientation">
+        <enum>Qt::Horizontal</enum>
+       </property>
+      </widget>
+      <widget class="YScrollBarH" name="hscrollbarButton" native="true">
+       <property name="geometry">
+        <rect>
+         <x>10</x>
+         <y>350</y>
+         <width>451</width>
+         <height>31</height>
+        </rect>
+       </property>
+      </widget>
+     </widget>
+     <widget class="QWidget" name="tab_2">
+      <attribute name="title">
+       <string> 选项卡3</string>
+      </attribute>
+      <layout class="QVBoxLayout" name="verticalLayout_2">
+       <item>
+        <widget class="YTableWidget" name="tableWidget"/>
+       </item>
+      </layout>
+     </widget>
+    </widget>
+   </item>
+  </layout>
+ </widget>
+ <customwidgets>
+  <customwidget>
+   <class>YComboBox</class>
+   <extends>QComboBox</extends>
+   <header>ycombobox.h</header>
+  </customwidget>
+  <customwidget>
+   <class>YListWidget</class>
+   <extends>QListWidget</extends>
+   <header location="global">ylistwidget.h</header>
+  </customwidget>
+  <customwidget>
+   <class>YTreeWidget</class>
+   <extends>QTreeWidget</extends>
+   <header>ytreewidget.h</header>
+  </customwidget>
+  <customwidget>
+   <class>YSpinBox</class>
+   <extends>QSpinBox</extends>
+   <header>yspinbox.h</header>
+  </customwidget>
+  <customwidget>
+   <class>YDoubleSpinBox</class>
+   <extends>QDoubleSpinBox</extends>
+   <header>ydoublespinbox.h</header>
+  </customwidget>
+  <customwidget>
+   <class>YTableWidget</class>
+   <extends>QTableWidget</extends>
+   <header>ytablewidget.h</header>
+  </customwidget>
+  <customwidget>
+   <class>YScrollBarV</class>
+   <extends>QWidget</extends>
+   <header location="global">yscrollbarv.h</header>
+   <container>1</container>
+  </customwidget>
+  <customwidget>
+   <class>YScrollBarH</class>
+   <extends>QWidget</extends>
+   <header location="global">yscrollbarh.h</header>
+   <container>1</container>
+  </customwidget>
+ </customwidgets>
+ <resources/>
+ <connections/>
+</ui>

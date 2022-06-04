@@ -1,0 +1,77 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+ <class>frmNavPage</class>
+ <widget class="QWidget" name="frmNavPage">
+  <property name="geometry">
+   <rect>
+    <x>0</x>
+    <y>0</y>
+    <width>800</width>
+    <height>600</height>
+   </rect>
+  </property>
+  <property name="windowTitle">
+   <string>Form</string>
+  </property>
+  <widget class="NavPage" name="navPage1" native="true">
+   <property name="geometry">
+    <rect>
+     <x>10</x>
+     <y>10</y>
+     <width>481</width>
+     <height>51</height>
+    </rect>
+   </property>
+  </widget>
+  <widget class="NavPage" name="navPage2" native="true">
+   <property name="geometry">
+    <rect>
+     <x>10</x>
+     <y>70</y>
+     <width>481</width>
+     <height>51</height>
+    </rect>
+   </property>
+  </widget>
+  <widget class="NavPage" name="navPage3" native="true">
+   <property name="geometry">
+    <rect>
+     <x>10</x>
+     <y>130</y>
+     <width>481</width>
+     <height>51</height>
+    </rect>
+   </property>
+  </widget>
+  <widget class="NavPage" name="navPage4" native="true">
+   <property name="geometry">
+    <rect>
+     <x>10</x>
+     <y>190</y>
+     <width>481</width>
+     <height>51</height>
+    </rect>
+   </property>
+  </widget>
+  <widget class="NavPage" name="navPage5" native="true">
+   <property name="geometry">
+    <rect>
+     <x>10</x>
+     <y>250</y>
+     <width>481</width>
+     <height>51</height>
+    </rect>
+   </property>
+  </widget>
+ </widget>
+ <customwidgets>
+  <customwidget>
+   <class>NavPage</class>
+   <extends>QWidget</extends>
+   <header>navpage.h</header>
+   <container>1</container>
+  </customwidget>
+ </customwidgets>
+ <resources/>
+ <connections/>
+</ui>

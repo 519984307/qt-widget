@@ -1,0 +1,12 @@
+<RCC>
+    <qresource prefix="/">
+        <file>data/data1.txt</file>
+        <file>data/data2.txt</file>
+        <file>data/data3.txt</file>
+        <file>data/pinyin_fanti.txt</file>
+        <file>data/pinyin_group.txt</file>
+        <file>data/pinyin_one.txt</file>
+        <file>data/test.txt</file>
+        <file>data/zhtopy.txt</file>
+    </qresource>
+</RCC>

@@ -1,0 +1,14 @@
+TEMPLATE = subdirs
+SUBDIRS += progressbutton
+SUBDIRS += progresscolor
+SUBDIRS += progresspercent
+SUBDIRS += progressround
+SUBDIRS += progresswait
+SUBDIRS += progresswater
+SUBDIRS += progressthree
+SUBDIRS += progressplay
+SUBDIRS += progressring
+SUBDIRS += progressarc
+SUBDIRS += progressshadow
+SUBDIRS += progresstip
+SUBDIRS += progresscountdown

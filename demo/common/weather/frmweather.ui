@@ -1,0 +1,232 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+ <class>frmWeather</class>
+ <widget class="QWidget" name="frmWeather">
+  <property name="geometry">
+   <rect>
+    <x>0</x>
+    <y>0</y>
+    <width>800</width>
+    <height>600</height>
+   </rect>
+  </property>
+  <property name="windowTitle">
+   <string>Form</string>
+  </property>
+  <layout class="QGridLayout" name="gridLayout_2">
+   <item row="2" column="0">
+    <widget class="QTextEdit" name="textEdit">
+     <property name="readOnly">
+      <bool>true</bool>
+     </property>
+    </widget>
+   </item>
+   <item row="1" column="0">
+    <widget class="QLabel" name="labWeather">
+     <property name="frameShape">
+      <enum>QFrame::Box</enum>
+     </property>
+     <property name="frameShadow">
+      <enum>QFrame::Sunken</enum>
+     </property>
+     <property name="text">
+      <string/>
+     </property>
+    </widget>
+   </item>
+   <item row="0" column="0">
+    <widget class="QTableWidget" name="tableWidget"/>
+   </item>
+   <item row="0" column="1" rowspan="3">
+    <widget class="QWidget" name="widget" native="true">
+     <property name="minimumSize">
+      <size>
+       <width>180</width>
+       <height>0</height>
+      </size>
+     </property>
+     <property name="maximumSize">
+      <size>
+       <width>180</width>
+       <height>16777215</height>
+      </size>
+     </property>
+     <layout class="QGridLayout" name="gridLayout">
+      <property name="leftMargin">
+       <number>0</number>
+      </property>
+      <property name="topMargin">
+       <number>0</number>
+      </property>
+      <property name="rightMargin">
+       <number>0</number>
+      </property>
+      <property name="bottomMargin">
+       <number>0</number>
+      </property>
+      <item row="10" column="0" colspan="2">
+       <widget class="QTextEdit" name="txtMsg">
+        <property name="readOnly">
+         <bool>true</bool>
+        </property>
+       </widget>
+      </item>
+      <item row="5" column="1">
+       <widget class="QComboBox" name="cboxStyle"/>
+      </item>
+      <item row="0" column="0">
+       <widget class="QLabel" name="labProvince">
+        <property name="text">
+         <string>省份</string>
+        </property>
+       </widget>
+      </item>
+      <item row="6" column="0" colspan="2">
+       <widget class="QPushButton" name="btnQuery">
+        <property name="text">
+         <string>查询天气</string>
+        </property>
+       </widget>
+      </item>
+      <item row="8" column="0" colspan="2">
+       <widget class="QLabel" name="labType">
+        <property name="minimumSize">
+         <size>
+          <width>0</width>
+          <height>150</height>
+         </size>
+        </property>
+        <property name="maximumSize">
+         <size>
+          <width>16777215</width>
+          <height>150</height>
+         </size>
+        </property>
+        <property name="frameShape">
+         <enum>QFrame::Box</enum>
+        </property>
+        <property name="frameShadow">
+         <enum>QFrame::Sunken</enum>
+        </property>
+        <property name="text">
+         <string/>
+        </property>
+        <property name="alignment">
+         <set>Qt::AlignCenter</set>
+        </property>
+       </widget>
+      </item>
+      <item row="1" column="1">
+       <widget class="QComboBox" name="cboxCity"/>
+      </item>
+      <item row="3" column="1">
+       <widget class="QComboBox" name="cboxName">
+        <property name="editable">
+         <bool>true</bool>
+        </property>
+        <item>
+         <property name="text">
+          <string>上海市</string>
+         </property>
+        </item>
+        <item>
+         <property name="text">
+          <string>闵行区</string>
+         </property>
+        </item>
+        <item>
+         <property name="text">
+          <string>北京市</string>
+         </property>
+        </item>
+        <item>
+         <property name="text">
+          <string>南昌</string>
+         </property>
+        </item>
+        <item>
+         <property name="text">
+          <string>泰和县</string>
+         </property>
+        </item>
+       </widget>
+      </item>
+      <item row="4" column="1">
+       <widget class="QComboBox" name="cboxInterval"/>
+      </item>
+      <item row="2" column="1">
+       <widget class="QComboBox" name="cboxCounty"/>
+      </item>
+      <item row="2" column="0">
+       <widget class="QLabel" name="labCounty">
+        <property name="text">
+         <string>县城</string>
+        </property>
+       </widget>
+      </item>
+      <item row="0" column="1">
+       <widget class="QComboBox" name="cboxProvince">
+        <property name="sizePolicy">
+         <sizepolicy hsizetype="Expanding" vsizetype="Fixed">
+          <horstretch>0</horstretch>
+          <verstretch>0</verstretch>
+         </sizepolicy>
+        </property>
+       </widget>
+      </item>
+      <item row="3" column="0">
+       <widget class="QLabel" name="labName">
+        <property name="text">
+         <string>行政</string>
+        </property>
+       </widget>
+      </item>
+      <item row="1" column="0">
+       <widget class="QLabel" name="labCity">
+        <property name="text">
+         <string>市区</string>
+        </property>
+       </widget>
+      </item>
+      <item row="4" column="0">
+       <widget class="QLabel" name="labInterval">
+        <property name="text">
+         <string>间隔</string>
+        </property>
+       </widget>
+      </item>
+      <item row="5" column="0">
+       <widget class="QLabel" name="labStyle">
+        <property name="text">
+         <string>样式</string>
+        </property>
+       </widget>
+      </item>
+      <item row="7" column="0" colspan="2">
+       <widget class="QPushButton" name="btnLocation">
+        <property name="text">
+         <string>定位城市</string>
+        </property>
+       </widget>
+      </item>
+     </layout>
+    </widget>
+   </item>
+  </layout>
+ </widget>
+ <tabstops>
+  <tabstop>textEdit</tabstop>
+  <tabstop>tableWidget</tabstop>
+  <tabstop>cboxProvince</tabstop>
+  <tabstop>cboxCity</tabstop>
+  <tabstop>cboxCounty</tabstop>
+  <tabstop>cboxName</tabstop>
+  <tabstop>cboxInterval</tabstop>
+  <tabstop>cboxStyle</tabstop>
+  <tabstop>btnQuery</tabstop>
+  <tabstop>btnLocation</tabstop>
+  <tabstop>txtMsg</tabstop>
+ </tabstops>
+ <resources/>
+ <connections/>
+</ui>

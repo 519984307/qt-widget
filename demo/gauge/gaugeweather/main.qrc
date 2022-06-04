@@ -1,0 +1,24 @@
+<RCC>
+    <qresource prefix="/">
+        <file>image/bg1.jpg</file>
+        <file>image/bg2.png</file>
+        <file>svg/weather/weather-cloudy.svg</file>
+        <file>svg/weather/weathercock.svg</file>
+        <file>svg/weather/weather-fog.svg</file>
+        <file>svg/weather/weather-hail.svg</file>
+        <file>svg/weather/weather-lightning.svg</file>
+        <file>svg/weather/weather-lightning-rainy.svg</file>
+        <file>svg/weather/weather-night.svg</file>
+        <file>svg/weather/weather-partlycloudy.svg</file>
+        <file>svg/weather/weather-pouring.svg</file>
+        <file>svg/weather/weather-rainy.svg</file>
+        <file>svg/weather/weather-snowy.svg</file>
+        <file>svg/weather/weather-snowy-rainy.svg</file>
+        <file>svg/weather/weather-sunny.svg</file>
+        <file>svg/weather/weather-sunset.svg</file>
+        <file>svg/weather/weather-sunset-down.svg</file>
+        <file>svg/weather/weather-sunset-up.svg</file>
+        <file>svg/weather/weather-windy.svg</file>
+        <file>svg/weather/weather-windy-variant.svg</file>
+    </qresource>
+</RCC>

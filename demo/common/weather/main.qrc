@@ -1,0 +1,6 @@
+<RCC>
+    <qresource prefix="/">
+        <file>font/city.json</file>
+        <file>font/pe-icon-set-weather.ttf</file>
+    </qresource>
+</RCC>

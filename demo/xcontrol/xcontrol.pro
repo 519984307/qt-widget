@@ -1,0 +1,9 @@
+TEMPLATE = subdirs
+SUBDIRS += xcombobox
+SUBDIRS += xlistwidget
+SUBDIRS += xlistwidgetvs
+SUBDIRS += xlistwidgetvt
+SUBDIRS += xprogressbar
+SUBDIRS += xslider
+SUBDIRS += xstackwidget
+SUBDIRS += xtablewidget

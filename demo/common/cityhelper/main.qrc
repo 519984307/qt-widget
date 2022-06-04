@@ -1,0 +1,5 @@
+<RCC>
+    <qresource prefix="/">
+        <file>font/city.json</file>
+    </qresource>
+</RCC>

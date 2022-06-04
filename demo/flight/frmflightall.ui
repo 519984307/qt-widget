@@ -1,0 +1,219 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+ <class>frmFlightAll</class>
+ <widget class="QWidget" name="frmFlightAll">
+  <property name="geometry">
+   <rect>
+    <x>0</x>
+    <y>0</y>
+    <width>800</width>
+    <height>600</height>
+   </rect>
+  </property>
+  <property name="windowTitle">
+   <string>Form</string>
+  </property>
+  <widget class="FlightADI" name="flightADI">
+   <property name="enabled">
+    <bool>false</bool>
+   </property>
+   <property name="geometry">
+    <rect>
+     <x>11</x>
+     <y>11</y>
+     <width>85</width>
+     <height>85</height>
+    </rect>
+   </property>
+   <property name="frameShape">
+    <enum>QFrame::NoFrame</enum>
+   </property>
+   <property name="frameShadow">
+    <enum>QFrame::Plain</enum>
+   </property>
+   <property name="verticalScrollBarPolicy">
+    <enum>Qt::ScrollBarAlwaysOff</enum>
+   </property>
+   <property name="horizontalScrollBarPolicy">
+    <enum>Qt::ScrollBarAlwaysOff</enum>
+   </property>
+   <property name="interactive">
+    <bool>false</bool>
+   </property>
+  </widget>
+  <widget class="FlightALT" name="flightALT">
+   <property name="enabled">
+    <bool>false</bool>
+   </property>
+   <property name="geometry">
+    <rect>
+     <x>103</x>
+     <y>11</y>
+     <width>85</width>
+     <height>85</height>
+    </rect>
+   </property>
+   <property name="frameShape">
+    <enum>QFrame::NoFrame</enum>
+   </property>
+   <property name="frameShadow">
+    <enum>QFrame::Plain</enum>
+   </property>
+   <property name="verticalScrollBarPolicy">
+    <enum>Qt::ScrollBarAlwaysOff</enum>
+   </property>
+   <property name="horizontalScrollBarPolicy">
+    <enum>Qt::ScrollBarAlwaysOff</enum>
+   </property>
+   <property name="interactive">
+    <bool>false</bool>
+   </property>
+  </widget>
+  <widget class="FlightASI" name="flightASI">
+   <property name="enabled">
+    <bool>false</bool>
+   </property>
+   <property name="geometry">
+    <rect>
+     <x>195</x>
+     <y>11</y>
+     <width>85</width>
+     <height>85</height>
+    </rect>
+   </property>
+   <property name="frameShape">
+    <enum>QFrame::NoFrame</enum>
+   </property>
+   <property name="frameShadow">
+    <enum>QFrame::Plain</enum>
+   </property>
+   <property name="verticalScrollBarPolicy">
+    <enum>Qt::ScrollBarAlwaysOff</enum>
+   </property>
+   <property name="horizontalScrollBarPolicy">
+    <enum>Qt::ScrollBarAlwaysOff</enum>
+   </property>
+   <property name="interactive">
+    <bool>false</bool>
+   </property>
+  </widget>
+  <widget class="FlightHSI" name="flightHSI">
+   <property name="enabled">
+    <bool>false</bool>
+   </property>
+   <property name="geometry">
+    <rect>
+     <x>11</x>
+     <y>103</y>
+     <width>85</width>
+     <height>85</height>
+    </rect>
+   </property>
+   <property name="frameShape">
+    <enum>QFrame::NoFrame</enum>
+   </property>
+   <property name="frameShadow">
+    <enum>QFrame::Plain</enum>
+   </property>
+   <property name="verticalScrollBarPolicy">
+    <enum>Qt::ScrollBarAlwaysOff</enum>
+   </property>
+   <property name="horizontalScrollBarPolicy">
+    <enum>Qt::ScrollBarAlwaysOff</enum>
+   </property>
+   <property name="interactive">
+    <bool>false</bool>
+   </property>
+  </widget>
+  <widget class="FlightVSI" name="flightVSI">
+   <property name="enabled">
+    <bool>false</bool>
+   </property>
+   <property name="geometry">
+    <rect>
+     <x>103</x>
+     <y>103</y>
+     <width>85</width>
+     <height>85</height>
+    </rect>
+   </property>
+   <property name="frameShape">
+    <enum>QFrame::NoFrame</enum>
+   </property>
+   <property name="frameShadow">
+    <enum>QFrame::Plain</enum>
+   </property>
+   <property name="verticalScrollBarPolicy">
+    <enum>Qt::ScrollBarAlwaysOff</enum>
+   </property>
+   <property name="horizontalScrollBarPolicy">
+    <enum>Qt::ScrollBarAlwaysOff</enum>
+   </property>
+   <property name="interactive">
+    <bool>false</bool>
+   </property>
+  </widget>
+  <widget class="FlightTC" name="flightTC">
+   <property name="enabled">
+    <bool>false</bool>
+   </property>
+   <property name="geometry">
+    <rect>
+     <x>195</x>
+     <y>103</y>
+     <width>85</width>
+     <height>85</height>
+    </rect>
+   </property>
+   <property name="frameShape">
+    <enum>QFrame::NoFrame</enum>
+   </property>
+   <property name="frameShadow">
+    <enum>QFrame::Plain</enum>
+   </property>
+   <property name="verticalScrollBarPolicy">
+    <enum>Qt::ScrollBarAlwaysOff</enum>
+   </property>
+   <property name="horizontalScrollBarPolicy">
+    <enum>Qt::ScrollBarAlwaysOff</enum>
+   </property>
+   <property name="interactive">
+    <bool>false</bool>
+   </property>
+  </widget>
+ </widget>
+ <customwidgets>
+  <customwidget>
+   <class>FlightADI</class>
+   <extends>QGraphicsView</extends>
+   <header>flightadi.h</header>
+  </customwidget>
+  <customwidget>
+   <class>FlightALT</class>
+   <extends>QGraphicsView</extends>
+   <header location="global">flightalt.h</header>
+  </customwidget>
+  <customwidget>
+   <class>FlightASI</class>
+   <extends>QGraphicsView</extends>
+   <header>flightasi.h</header>
+  </customwidget>
+  <customwidget>
+   <class>FlightHSI</class>
+   <extends>QGraphicsView</extends>
+   <header location="global">flighthsi.h</header>
+  </customwidget>
+  <customwidget>
+   <class>FlightVSI</class>
+   <extends>QGraphicsView</extends>
+   <header>flightvsi.h</header>
+  </customwidget>
+  <customwidget>
+   <class>FlightTC</class>
+   <extends>QGraphicsView</extends>
+   <header>flighttc.h</header>
+  </customwidget>
+ </customwidgets>
+ <resources/>
+ <connections/>
+</ui>

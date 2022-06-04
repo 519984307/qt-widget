@@ -1,0 +1,42 @@
+<RCC>
+    <qresource prefix="/">
+        <file>image/ycontrol/combox_normal.png</file>
+        <file>image/ycontrol/combox_normal_2.png</file>
+        <file>image/ycontrol/combox_select.png</file>
+        <file>image/ycontrol/combox_select_2.png</file>
+        <file>image/ycontrol/HScrollbarButton_normal.png</file>
+        <file>image/ycontrol/HScrollbarButton_normal_minus-.png</file>
+        <file>image/ycontrol/HScrollbarButton_normal_minus--.png</file>
+        <file>image/ycontrol/HScrollbarButton_normal_minus---.png</file>
+        <file>image/ycontrol/HScrollbarButton_normal_plus+.png</file>
+        <file>image/ycontrol/HScrollbarButton_normal_plus++.png</file>
+        <file>image/ycontrol/HScrollbarButton_normal_plus+++.png</file>
+        <file>image/ycontrol/HScrollbarButton_select.png</file>
+        <file>image/ycontrol/HScrollbarButton_select_minus-.png</file>
+        <file>image/ycontrol/HScrollbarButton_select_minus--.png</file>
+        <file>image/ycontrol/HScrollbarButton_select_minus---.png</file>
+        <file>image/ycontrol/HScrollbarButton_select_plus+.png</file>
+        <file>image/ycontrol/HScrollbarButton_select_plus++.png</file>
+        <file>image/ycontrol/HScrollbarButton_select_plus+++.png</file>
+        <file>image/ycontrol/spinBoxButton_normal.png</file>
+        <file>image/ycontrol/spinBoxButton_normal_minus.png</file>
+        <file>image/ycontrol/spinBoxButton_normal_plus.png</file>
+        <file>image/ycontrol/spinBoxButton_select.png</file>
+        <file>image/ycontrol/spinBoxButton_select_minus.png</file>
+        <file>image/ycontrol/spinBoxButton_select_plus.png</file>
+        <file>image/ycontrol/VScrollbarButton_normal.png</file>
+        <file>image/ycontrol/VScrollbarButton_normal_minus-.png</file>
+        <file>image/ycontrol/VScrollbarButton_normal_minus--.png</file>
+        <file>image/ycontrol/VScrollbarButton_normal_minus---.png</file>
+        <file>image/ycontrol/VScrollbarButton_normal_plus+.png</file>
+        <file>image/ycontrol/VScrollbarButton_normal_plus++.png</file>
+        <file>image/ycontrol/VScrollbarButton_normal_plus+++.png</file>
+        <file>image/ycontrol/VScrollbarButton_select.png</file>
+        <file>image/ycontrol/VScrollbarButton_select_minus-.png</file>
+        <file>image/ycontrol/VScrollbarButton_select_minus--.png</file>
+        <file>image/ycontrol/VScrollbarButton_select_minus---.png</file>
+        <file>image/ycontrol/VScrollbarButton_select_plus+.png</file>
+        <file>image/ycontrol/VScrollbarButton_select_plus++.png</file>
+        <file>image/ycontrol/VScrollbarButton_select_plus+++.png</file>
+    </qresource>
+</RCC>

@@ -1,0 +1,23 @@
+path_designer = $$PWD/../designer
+path_src = $$path_designer/src
+#包含对应控件的头文件所在文件夹方便程序直接查找
+INCLUDEPATH += $$path_src
+INCLUDEPATH += $$path_src/gauge
+INCLUDEPATH += $$path_src/progress
+INCLUDEPATH += $$path_src/painter
+INCLUDEPATH += $$path_src/custom
+INCLUDEPATH += $$path_src/nav
+INCLUDEPATH += $$path_src/wave
+INCLUDEPATH += $$path_src/ruler
+INCLUDEPATH += $$path_src/slider
+INCLUDEPATH += $$path_src/bar
+INCLUDEPATH += $$path_src/color
+INCLUDEPATH += $$path_src/image
+INCLUDEPATH += $$path_src/other
+INCLUDEPATH += $$path_src/video
+INCLUDEPATH += $$path_src/flight
+INCLUDEPATH += $$path_src/xcontrol
+INCLUDEPATH += $$path_src/ycontrol
+INCLUDEPATH += $$path_src/widget
+INCLUDEPATH += $$path_src/common
+INCLUDEPATH += $$PWD/frmexamples

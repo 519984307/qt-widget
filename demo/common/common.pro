@@ -1,0 +1,13 @@
+TEMPLATE = subdirs
+SUBDIRS += flatui
+SUBDIRS += zhtopy
+SUBDIRS += pinyin
+SUBDIRS += ntpclient
+SUBDIRS += savelog
+SUBDIRS += saveruntime
+SUBDIRS += trayicon
+SUBDIRS += smoothcurve
+SUBDIRS += base64helper
+SUBDIRS += iconhelper
+SUBDIRS += weather
+SUBDIRS += cityhelper

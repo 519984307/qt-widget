@@ -1,0 +1,42 @@
+<RCC>
+    <qresource prefix="/">
+        <file>image/qtdemo/bg_pattern.png</file>
+        <file>image/qtdemo/button_normal_cap_left.png</file>
+        <file>image/qtdemo/button_normal_cap_right.png</file>
+        <file>image/qtdemo/button_normal_stretch.png</file>
+        <file>image/qtdemo/button_pressed_cap_left.png</file>
+        <file>image/qtdemo/button_pressed_cap_right.png</file>
+        <file>image/qtdemo/button_pressed_stretch.png</file>
+        <file>image/qtdemo/frame_bottom.png</file>
+        <file>image/qtdemo/frame_bottomleft.png</file>
+        <file>image/qtdemo/frame_bottomright.png</file>
+        <file>image/qtdemo/frame_left.png</file>
+        <file>image/qtdemo/frame_right.png</file>
+        <file>image/qtdemo/frame_top.png</file>
+        <file>image/qtdemo/frame_topleft.png</file>
+        <file>image/qtdemo/frame_topright.png</file>
+        <file>image/qtdemo/groupframe_bottom_left.png</file>
+        <file>image/qtdemo/groupframe_bottom_right.png</file>
+        <file>image/qtdemo/groupframe_bottom_stretch.png</file>
+        <file>image/qtdemo/groupframe_left_stretch.png</file>
+        <file>image/qtdemo/groupframe_right_stretch.png</file>
+        <file>image/qtdemo/groupframe_top_stretch.png</file>
+        <file>image/qtdemo/groupframe_topleft.png</file>
+        <file>image/qtdemo/groupframe_topright.png</file>
+        <file>image/qtdemo/line_dash_dot.png</file>
+        <file>image/qtdemo/line_dash_dot_dot.png</file>
+        <file>image/qtdemo/line_dashed.png</file>
+        <file>image/qtdemo/line_dotted.png</file>
+        <file>image/qtdemo/line_solid.png</file>
+        <file>image/qtdemo/radiobutton_off.png</file>
+        <file>image/qtdemo/radiobutton_on.png</file>
+        <file>image/qtdemo/radiobutton-off.png</file>
+        <file>image/qtdemo/radiobutton-on.png</file>
+        <file>image/qtdemo/slider_bar.png</file>
+        <file>image/qtdemo/slider_thumb_off.png</file>
+        <file>image/qtdemo/slider_thumb_on.png</file>
+        <file>image/qtdemo/title_cap_left.png</file>
+        <file>image/qtdemo/title_cap_right.png</file>
+        <file>image/qtdemo/title_stretch.png</file>
+    </qresource>
+</RCC>

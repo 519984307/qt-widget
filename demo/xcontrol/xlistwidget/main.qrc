@@ -1,0 +1,8 @@
+<RCC>
+    <qresource prefix="/">
+        <file>image/xlistwidget_normal.png</file>
+        <file>image/xlistwidget_select.png</file>
+        <file>image/xlistwidget_hover.png</file>
+        <file>font/iconfont.ttf</file>
+    </qresource>
+</RCC>
