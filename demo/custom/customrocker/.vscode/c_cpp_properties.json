@@ -1,0 +1,22 @@
+{
+    "configurations": [
+        {
+            "name": "Win32",
+            "includePath": [
+                "${workspaceFolder}/**"
+            ],
+            "defines": [
+                "_DEBUG",
+                "UNICODE",
+                "_UNICODE"
+            ],
+            "cStandard": "c17",
+            "cppStandard": "c++17",
+            "intelliSenseMode": "windows-msvc-x64",
+            // "compileCommands": "${workspaceFolder}/build-video_ffmpeg-Desktop_Qt_6_2_4_MinGW_64_bit-Debug/.qtc_clangd/compile_commands.json"
+            "compileCommands": "${workspaceFolder}/../build-customrocker-Desktop_Qt_5_15_2_MinGW_64_bit-Debug/.qtc_clangd/compile_commands.json"
+            // "compileCommands": "${workspaceFolder}/build-video_ffmpeg-Android_Qt_5_15_2_Clang_Multi_Abi-Debug/.qtc_clangd/compile_commands.json"
+        }
+    ],
+    "version": 4
+}

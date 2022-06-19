@@ -1,4 +1,26 @@
-﻿#pragma execution_character_set("utf-8")
+﻿/**
+ * @file customrocker.cpp
+ * @author creekwater
+ * @brief
+ *
+ * 摇杆控件
+ *
+ * 1. 可设置是否只在外边缘线上。
+ * 2. 可设置边框宽度。
+ * 3. 可设置摇杆的半径。
+ * 4. 可设置边框颜色。
+ * 5. 可设置背景颜色。
+ * 6. 可设置摇杆颜色。
+ * 7. 发出移动角度信号。
+ *
+ * @version 0.1
+ * @date 2022-06-04
+ *
+ * @copyright Copyright (c) 2022
+ *
+ */
+
+#pragma execution_character_set("utf-8")
 
 #include "customrocker.h"
 #include "qpainter.h"

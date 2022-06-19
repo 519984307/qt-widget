@@ -3,17 +3,6 @@
 
 #include <QWidget>
 
-/**
- * 自定义摇杆控件 作者:赵彦博(QQ:408815041) 整理:feiyangqingyun(QQ:517216493) 2019-03-28
- * 1. 可设置是否只在外边缘线上。
- * 2. 可设置边框宽度。
- * 3. 可设置摇杆的半径。
- * 4. 可设置边框颜色。
- * 5. 可设置背景颜色。
- * 6. 可设置摇杆颜色。
- * 7. 发出移动角度信号。
- */
-
 #ifdef quc
 class Q_DECL_EXPORT CustomRocker : public QWidget
 #else
